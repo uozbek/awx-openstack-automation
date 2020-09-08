@@ -7,10 +7,10 @@
     os_server:
        state: present
        name: ubuntu
-       image: "/v2/images/e493c376-a94f-48bd-a577-8f5e0f987b06/file"
+       image: e493c376-a94f-48bd-a577-8f5e0f987b06
        key_name: automation-key
        timeout: 200
-       flavor: 865e07f67ed74039affb36b8a4513996
+       flavor: 9b2dfaa6-766f-4d41-bee6-5c31b5792eac
        auto_ip: no
        network: 68e81282-daff-4101-9135-0313c64b7132
        security_groups: default
